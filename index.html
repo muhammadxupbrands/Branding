@@ -14,13 +14,10 @@
     <div class="page-grain" aria-hidden="true"></div>
     <section class="password-gate" id="password-gate" aria-labelledby="gate-title">
       <form class="gate-card" id="password-form">
-        <p class="eyebrow">PRIVATE CLIENT PROPOSAL</p>
-        <h1 id="gate-title">Welcome to<br /><em>GILDED.</em></h1>
-        <p>This proposal is intended for the GILDED team.</p>
-        <label for="pitch-password">Access password</label>
+        <p id="gate-title" class="gate-message">Page is password protected.</p>
         <div class="password-row">
-          <input id="pitch-password" name="password" type="password" autocomplete="current-password" required />
-          <button type="submit">Enter <span>↗</span></button>
+          <input id="pitch-password" name="password" type="password" autocomplete="current-password" aria-label="Password" placeholder="Password" required />
+          <button type="submit" aria-label="Submit password"><span>↗</span></button>
         </div>
         <p class="gate-error" id="gate-error" role="alert" aria-live="polite"></p>
       </form>

@@ -36,7 +36,7 @@ passwordForm.addEventListener('submit', (event) => {
     unlockPitch();
     return;
   }
-  passwordError.textContent = 'That password does not match this proposal.';
+  passwordError.textContent = 'Incorrect password.';
   passwordInput.select();
 });
 
