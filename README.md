@@ -1,6 +1,6 @@
-# GILDED Amazon Creative Partnership Pitch
+#Creative
 
-A local, build-free client pitch web app.
+
 
 ## Run locally
 
